@@ -94,6 +94,38 @@ section {
 
 /* ----------------------HEADER----------------------- */
 
+/* ----------------FLEX-------------- */
+.header-list {
+  display: flex;
+}
+
+.header-list .header-item + .header-item {
+  margin-left: 50px;
+}
+
+.header-auth {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-auth .header-auth-item + .header-auth-item {
+  margin-left: 50px;
+}
+
+.flex .header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  margin-left: 93px;
+}
+
 .header-icon {
   font-family: "Raleway";
   font-weight: 700;
@@ -101,7 +133,7 @@ section {
   color: #2196f3;
 }
 
-.header-icon-studio {
+.icon-link {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -165,7 +197,6 @@ section {
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
-  margin: 0 auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -185,6 +216,14 @@ section {
 }
 
 /* ----------------ADVANTAGE---------------------- */
+
+.advantage-list {
+  display: flex;
+}
+
+.advantage-list .advantage-item + .advantage-item {
+  margin-left: 30px;
+}
 
 .advantage {
   padding-top: 94px;
@@ -206,7 +245,23 @@ section {
 
 /* --------------------WORK-------------------------- */
 
+.work-list {
+  display: flex;
+}
+
+.work-list .work-item + .work-item {
+  margin-left: 30px;
+}
+
 /* -------------------TEAM---------------------- */
+
+.team-list {
+  display: flex;
+}
+
+.team-list .team-item + .team-item {
+  margin-left: 30px;
+}
 
 .team-text {
   color: var(--text-color);
@@ -227,7 +282,7 @@ section {
 .footer {
   background-color: var(--footer-bcg-color);
 }
-.footer-secondary-icon {
+.footer-icon-secondary {
   color: #ffffff;
   font-family: "Raleway";
   font-weight: 700;
