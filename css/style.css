@@ -121,7 +121,8 @@ a {
 .flex {
   display: flex;
   align-items: center;
-  height: 80px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header .container {
@@ -356,11 +357,6 @@ a {
 .portfolio-header {
   border: 1px solid #ececec;
 }
-
-/* .portfolio-header .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
-} */
 
 .portfolio-auth-list {
   margin-top: 0;
