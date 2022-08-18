@@ -123,8 +123,8 @@ a {
 }
 
 .header .container {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-item {
@@ -279,7 +279,7 @@ a {
   font-size: 16px;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .team-item {
@@ -357,8 +357,8 @@ a {
 }
 
 .portfolio-header .container {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .portfolio-auth-list {
@@ -452,4 +452,5 @@ a {
 .portfolio-content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  max-width: 368px;
 }
