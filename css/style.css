@@ -95,6 +95,7 @@ a {
 /* ----------------------HEADER----------------------- */
 
 /* ----------------FLEX-------------- */
+
 .header-list {
   display: flex;
 }
@@ -120,11 +121,11 @@ a {
 .flex {
   display: flex;
   align-items: center;
+  height: 60px;
 }
 
 .header .container {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  outline: 1px solid red;
 }
 
 .header-item {
