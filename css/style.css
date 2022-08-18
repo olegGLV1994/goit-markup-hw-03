@@ -421,15 +421,6 @@ a {
   flex-wrap: wrap;
 }
 
-.content-title {
-  margin-top: 20px;
-}
-
-.content-text {
-  margin-top: 4px;
-  margin-bottom: 0;
-}
-
 .content-item {
   border: 1px solid #eeeeee;
   width: 370px;
@@ -449,5 +440,4 @@ a {
 .portfolio-content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  max-width: 368px;
 }
